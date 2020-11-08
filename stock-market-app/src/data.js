@@ -1,24 +1,24 @@
 const data = {
   exchanges: [
     {
-      name: "OSEBX",
+      name: "NYSE",
       index: 841.42,
       change: 1.54,
     },
     {
-      name: "SENSEX",
+      name: "NASDAQ",
       index: 28721.42,
       change: 8.48,
     },
     {
-      name: "NIFTY",
+      name: "BSE",
       index: 1841.42,
       change: 5.54,
     },
     {
-      name: "NASDAQ",
+      name: "PHLX",
       index: 38841.42,
-      change: 9.54,
+      change: -9.54,
     },
   ],
   stocks: [

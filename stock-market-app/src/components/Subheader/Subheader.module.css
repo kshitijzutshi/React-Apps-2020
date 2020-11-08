@@ -1,0 +1,13 @@
+.subheader {
+  background: linear-gradient(
+    to bottom,
+    var(--header-gradient-top),
+    var(--header-gradient-bottom)
+  );
+  /* height: 250px; */
+}
+.container {
+  max-width: var(--site-width);
+  margin: 0 auto;
+  padding: 10px;
+}
