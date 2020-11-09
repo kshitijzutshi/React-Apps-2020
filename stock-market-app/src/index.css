@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "coolvetica", sans-serif;
+  font-family: "Neutrif", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -8,10 +8,48 @@ body {
   font-family: "coolvetica";
   src: local("coolvetica"), url(./fonts/coolvetica-rg.ttf) format("truetype");
 }
+p {
+  font-family: Neutrif, Montserrat, sans-serif;
+  margin: 0;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Neutrif;
+  src: url("./fonts/NeutrifPro-Light.otf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: Neutrif;
+  src: url("./fonts/NeutrifPro-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Neutrif;
+  src: url("./fonts/NeutrifPro-Medium.otf");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: Neutrif;
+  src: url("./fonts/NeutrifPro-Bold.otf");
+  font-weight: bold;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: Neutrif, Montserrat, sans-serif;
 }
 
 :root {

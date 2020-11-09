@@ -5,7 +5,7 @@ const ExchangeList = (props) => {
   const renderListItems = () => {
     return props.exchanges.map((exchange) => {
       return (
-        <li className={styles.listItem}>
+        <li className={styles.listItem} key={exchange.name}>
           <div className={styles.dot}></div>
           <div className={styles.name}>{exchange.name}</div>
           <div className={styles.index}>{exchange.index}</div>

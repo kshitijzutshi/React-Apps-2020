@@ -16,6 +16,13 @@
   fill: #fff;
   margin-right: 8px;
 }
+.container {
+  max-width: var(--site-width);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
 .userContainer {
   display: flex;
