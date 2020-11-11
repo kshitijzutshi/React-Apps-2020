@@ -56,5 +56,7 @@ h6 {
   --header-gradient-top: #38a8c3;
   --header-gradient-bottom: #2a7fa0;
   --exchange-green: #40d939;
+  --infoCard-text-color: #2d88a8;
+  --infoCard-dark-bg-color: #1b5265;
   --site-width: 1024px;
 }
