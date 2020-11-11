@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Subheader from "./components/Subheader/Subheader";
 import ExchangeList from "./components/ExchangeList/ExchangeList";
 import data from "./data.js";
-import { getTopFiveDividendStocks } from "./helpers";
+import { getTopFiveDividendStocks, getInfoCardData } from "./helpers";
 import TopFiveDividendsStocksList from "./components/TopFiveDividendsStocksList/TopFiveDividendsStocksList";
 import InfoCard from "./components/infoCard/InfoCard";
 import styles from "./App.module.css";
@@ -21,15 +21,15 @@ function App() {
         <div className={styles.infoCardContainer}>
           <InfoCard
             title="Highest dividend yield in current year"
-            stock={{ ticker: "VEI", amount: 20 }}
+            stock={getInfoCardData("yieldcurrent", data.stocks)}
           />
           <InfoCard
             title="Highest dividend yield all time"
-            stock={{ ticker: "AKER", amount: 34 }}
+            stock={getInfoCardData("yieldcompounded", data.stocks)}
           />
           <InfoCard
             title="Highest dividend yield growth in past 3 years"
-            stock={{ ticker: "BEI", amount: 23 }}
+            stock={getInfoCardData("growth", data.stocks)}
             darkmode
           />
         </div>
