@@ -10,3 +10,6 @@
 </div>
 
 Working with react components to make an elegant yet minimal Stocks Application.
+
+#### App screenshot 
+![](https://j.gifs.com/BN4Wyo.gif)
