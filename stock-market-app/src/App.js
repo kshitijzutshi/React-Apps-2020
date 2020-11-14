@@ -7,6 +7,7 @@ import data from "./data.js";
 import { getTopFiveDividendStocks, getInfoCardData } from "./helpers";
 import TopFiveDividendsStocksList from "./components/TopFiveDividendsStocksList/TopFiveDividendsStocksList";
 import InfoCard from "./components/infoCard/InfoCard";
+import StockList from "./components/StockList/StockList";
 import styles from "./App.module.css";
 
 function App() {
@@ -34,6 +35,11 @@ function App() {
           />
         </div>
       </Subheader>
+      <div className={styles.dashboardContent}>
+        <div className={styles.dashboardContentContainer}>
+          <StockList stocks={data.stocks} />
+        </div>
+      </div>
     </div>
   );
 }

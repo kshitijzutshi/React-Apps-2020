@@ -1,0 +1,68 @@
+.stockList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.listContainer {
+  padding: 20px;
+}
+
+.stockListItems {
+  display: flex;
+  color: #585858;
+  margin: 12px 0;
+}
+.sectorHeader,
+.listItemSector {
+  width: 80px;
+}
+
+.peHeader,
+.listItemPe {
+  width: 80px;
+}
+
+.dpsHeader,
+.listItemDps,
+.dpspentHeader,
+.listItemDps1000Spent {
+  width: 175px;
+}
+
+.tickerHeader,
+.listItemTicker,
+.askHeader,
+.listItemAsk,
+.bidHeader,
+.listItemBid {
+  width: 100px;
+}
+
+.nameHeader,
+.listItemName {
+  width: 200px;
+}
+
+.listHeaders {
+  display: flex;
+  /* color: #1d1d1d; */
+}
+
+.header {
+  padding: 10px 0;
+  border: 2px solid #f1f1f1;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-bottom: 15px;
+  color: #1d1d1d;
+  font-size: var(--h1-font-size);
+}
+.heading {
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: var(--box-border-radius);
+}
