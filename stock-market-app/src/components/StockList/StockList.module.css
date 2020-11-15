@@ -10,11 +10,12 @@
 .stockListItems {
   display: flex;
   color: #585858;
-  margin: 12px 0;
+  margin: 16px 0;
+  position: relative;
 }
 .sectorHeader,
 .listItemSector {
-  width: 80px;
+  width: 75px;
 }
 
 .peHeader,
@@ -22,11 +23,13 @@
   width: 80px;
 }
 
-.dpsHeader,
-.listItemDps,
 .dpspentHeader,
 .listItemDps1000Spent {
   width: 175px;
+}
+.dpsHeader,
+.listItemDps {
+  width: 130px;
 }
 
 .tickerHeader,
@@ -41,11 +44,17 @@
 .nameHeader,
 .listItemName {
   width: 200px;
+  padding-left: 10px;
 }
 
 .listHeaders {
   display: flex;
   /* color: #1d1d1d; */
+}
+
+.listHeaders,
+.stockList {
+  transform: translateX(40px);
 }
 
 .header {
@@ -58,11 +67,26 @@
   color: #1d1d1d;
   font-size: var(--h1-font-size);
 }
-.heading {
+/* .heading {
+} */
+.iconContainer {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #2a7fa0;
+  padding: 4px;
+  left: -28px;
+  position: absolute;
+  top: -2px;
+}
+.icon {
+  fill: #fff;
 }
 
 .container {
   background-color: #fff;
   padding: 20px;
   border-radius: var(--box-border-radius);
+  max-width: var(--site-width);
+  margin: auto;
 }

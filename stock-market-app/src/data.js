@@ -28,6 +28,7 @@ const data = {
       bid: 87.5,
       ask: 89.4,
       sector: "Telecommunications",
+      pe: 12,
       dividends: {
         2020: 29,
         2018: 18,
@@ -44,6 +45,7 @@ const data = {
       bid: 97.5,
       ask: 99.4,
       sector: "Industry",
+      pe: 14,
       dividends: {
         2020: 19,
         2018: 28,
@@ -60,6 +62,7 @@ const data = {
       bid: 67.5,
       ask: 69.4,
       sector: "Technology",
+      pe: 16,
       dividends: {
         2020: 22,
         2018: 38,
@@ -76,6 +79,7 @@ const data = {
       bid: 97.5,
       ask: 99.4,
       sector: "Finance",
+      pe: 15,
       dividends: {
         2020: 33,
         2018: 15,
@@ -92,6 +96,7 @@ const data = {
       bid: 67.5,
       ask: 79.4,
       sector: "Finance",
+      pe: 22,
       dividends: {
         2020: 37,
         2018: 29,
