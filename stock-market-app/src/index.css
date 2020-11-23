@@ -55,12 +55,12 @@ h6 {
 :root {
   --header-gradient-top: #38a8c3;
   --header-gradient-bottom: #2a7fa0;
-  --exchange-green: #40d939;
+  --exchange-green: #38ff26;
   --infoCard-text-color: #2d88a8;
   --infoCard-dark-bg-color: #1b5265;
   --site-width: 1100px;
   --dashboard-bg: #f1f1f1;
   --box-border-radius: 5px;
-  --h1-font-size: 0.7rem;
+  --h1-font-size: 1.5rem;
   --primary-blue: #2a7fa0;
 }
